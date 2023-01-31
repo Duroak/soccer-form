@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-family: "sans-serif", verdana;
+}
+
+#title, #description {
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  font-size: 18px;
+}
+
+body {
+  background: url(soccer-player.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#survey-form {
+  background-color: rgb(208, 5, 142, .7);
+  padding-bottom: 30px;
+  color: white;
+  border-radius: 5px;
+}
+
+fieldset {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+}
+
+.sec1 > label, .sec1 > input {
+  display: block; 
+  padding: 10px;
+}
+
+.sec2 > label, .sec2 > input {
+  display: block;
+  padding: 10px;
+}
+
+.sec3 #dropdown {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.sec4 > label, sec4 > #bio {
+  display: block;
+}
+
+.sec4 #bio {
+  margin-top: 15px;
+  color: black;
+}
+
+#submit {
+  display: block;
+  margin: 15px auto 0 auto;
+  width: 40%;
+  font-size: 24px;
+  color: white;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: green;
+}
